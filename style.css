@@ -1,0 +1,25 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+main{
+  height: 390px;
+  background-image: url(tatoo3.jpg);
+  background-repeat: no-repeat;
+
+}
+header, footer{
+  background-color: black;
+
+}
+
+*{
+  border: 1px solid blue;
+}
+header nav {
+  padding-right: 100%;
+  display: inline-block;
+}
+ul{
+  padding-right: 225%;
+}
