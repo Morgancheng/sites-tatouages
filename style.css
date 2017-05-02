@@ -4,22 +4,144 @@ html, body{
 }
 main{
   height: 390px;
-  background-image: url(tatoo3.jpg);
+  background-image: url(tel/tatoo3.jpg);
   background-repeat: no-repeat;
 
 }
-header, footer{
-  background-color: black;
 
-}
-
-*{
-  border: 1px solid blue;
-}
 header nav {
   padding-right: 100%;
   display: inline-block;
 }
 ul{
   padding-right: 225%;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.burger-shower {
+  display: none;
+}
+
+.burger-shower:checked ~ .burger-menu {
+  display: block;
+
+}
+
+.hamburger {
+  display:block;
+  width: 70%;
+  line-height: .1em;
+  border: .1em solid #ddd;
+  padding: 0 .4em .4em;
+}
+
+.hamburger i {
+  color: #ddd;
+  height: 20%;
+  width: 25%;
+  border: 0;
+  background: #ddd;
+  /* border: none; */
+}
+
+.burger-menu {
+   display:none;
+}
+
+.header1 {
+ display: flex;
+ border-bottom: 10px solid #842167;
+}
+
+#myInput {
+  margin-left: 80px;
+  height: 30px;
+  width: 280px;
+  border-radius: 12px;
+  border: 2px solid #842167;
+  background-color: #DDDDDD;
+  margin-top: 50px;
+}
+
+#search {
+  height: 25px;
+  width: 25px;
+  margin-top: 57px;
+}
+
+div {
+  float: right;
+}
+
+#header {
+  list-style-type: none;
+  display: flex;
+}
+
+#truck {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 220px;
+}
+
+#return {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.footer1 {
+  margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #842167;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.footer1 a {
+  color: #9F2F8B;
+  margin-left: 800px;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+
+h3{
+  margin-left: 50px;
+  color: #DE0066;
+}
+
+h4 {
+  margin-left: 50px;
+}
+
+.contact {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+  background-color: #E6D2E0;
+  border: 4px solid #842167;
+  border-radius: 12px;
+  padding: 25px;
+  height: 150px;
+  width: 350px;
+}
+
+section img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+em {
+    color: #DE0066;
 }
